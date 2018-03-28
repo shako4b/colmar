@@ -21,6 +21,9 @@
         <span id="colmar">COLMAR</span><span id="academy">ACADEMY</span>
       </div>
 
+      <!-- Could not figure out how to get those spaces between
+           the "li's" out -->
+
       <div class="menu">
         <ul>
           <li><a href="#campus">On campus</a></li><span><div class="box"></div></span>
@@ -37,10 +40,8 @@
 
   </header>
 
-  <!-- Main Content -->
-<!--  <div class="main-content"> -->
-
   <!-- Start Section -->
+
     <div class="start">
       <div>
           <img src="resources/images/banner.jpg" />
@@ -51,65 +52,158 @@
         <p class="lorem">Lorem ipsum dolor sit amet,<br>
         consectetur adipiscing elit.,</p>
         <div class="button">
-          <p>Start here</p>
+          <p><a href="#">Start here</a></p>
         </div>
       </div>
 
     </div>
+
+  <!-- Main Section -->
+
     <div class="main">
       <div class="item-con1">
         <img src="resources/images/information-main.jpg" />
         <p class="practice">It doesn't hurt to keep practicing</p>
         <p class="quote">"Curabitur vitae libero in ipsum porttito? consequat. Aliquam et commodo lectus,<br>nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam<br>eget magna laoreet, efficitur dolor consequat, tristique ligula.”</p>
         <p class="quoteby">Emanuel, Sr Strategist at Hiring.com,</p>
-
       </div>
+
       <div class="item-con2">
         <div class="items">
-          <div class="flex" id="item1">
+          <div class="flex-con2" id="item1">
             <img src="resources/images/information-orientation.jpg" />
             <div>
               <p class="subject">Orientation date</p>
               <p class="detail">Tue 10/11 &amp Wed 10/12: 8am-3pm</p>
-              <p class="btn">Read more</p>
+              <p class="btn"><a href="#">Read more</a></p>
             </div>
           </div>
-          <div class="flex">
+          <div class="flex-con2">
             <img src="resources/images/information-campus.jpg" />
             <div>
               <p class="subject">Our campus</p>
               <p class="detail">Find which campus is close by you</p>
-              <p class="btn">Read more</p>
+              <p class="btn"><a href="#">Read more</a></p>
             </div>
           </div>
-          <div class="flex">
+          <div class="flex-con2 bg">
             <img src="resources/images/information-guest-lecture.jpg" />
             <div>
-              <p class="subject">Our campus</p>
+              <p class="subject">Our guest lecture</p>
               <p class="detail">Join a keynote with Oliver Sack<br>about music in medical treatment</p>
-              <p class="btn">Read more</p>
+              <p class="btn"><a href="#">Read more</a></p>
             </div>
           </div>
-
         </div>
 
       </div>
 
-
     </div>
 
+<!--  Fields of Study Section -->
 
+    <div class="fields">
+      <div class="item-con3">
+        <div>
+          <h2 class="head1">Start learning</h2>
+        </div>
+      </div>
+      <div class="item-con4">
+        <div class="course" id="course1">
+          <img src="resources/images/course-software.jpg" />
+          <p class="school">Software engineering</p>
+          <p class="courses">COURSES</p>
+          <p class="courses">Web Development, Mobile<br>Development, iOT, APIs</p>
+        </div>
+        <div class="course" id="course2">
+          <img src="resources/images/course-computer-art.jpg" />
+          <p class="school">Computer art</p>
+          <p class="courses">COURSES</p>
+          <p class="courses">Imaging and Design, Web Design,<br>Motion Graphics &amp Visual Effects,<br>Computer Animation</p>
+        </div>
+        <div class="course" id="course3">
+          <img src="resources/images/course-design.jpg" />
+          <p class="school">Design</p>
+          <p class="courses">COURSES</p>
+          <p class="courses">User Experience Design, User<br>Research, Visual Design</p>
+        </div>
+      </div>
 
+  <!-- I tried "flex-wrap" but could not control the positioning.
+       I still don't get how flex positions items that aren't the
+       same size. Expletives did not help. -->
 
+      <div class="item-con5">
+        <div class="course" id="course4">
+          <img src="resources/images/course-software.jpg" />
+          <p class="school">Software engineering</p>
+          <p class="courses">COURSES</p>
+          <p class="courses">Web Development, Mobile<br>Development, iOT, APIs</p>
+        </div>
+        <div class="course" id="course5">
+          <img src="resources/images/course-computer-art.jpg" />
+          <p class="school">Computer art</p>
+          <p class="courses">COURSES</p>
+          <p class="courses">Imaging and Design, Web Design,<br>Motion Graphics &amp Visual Effects,<br>Computer Animation</p>
+        </div>
+        <div class="course" id="course6">
+          <img src="resources/images/course-design.jpg" />
+          <p class="school">Design</p>
+          <p class="courses">COURSES</p>
+          <p class="courses">User Experience Design, User<br>Research, Visual Design</p>
+        </div>
+      </div>
+    </div>
 
+  <!-- Thesis Exhibit Section -->
 
+      <div class="exhibit">
+        <div class="item-con6">
+          <div>
+            <h2 class="head2">Thesis exhibit</h2>
+          </div>
+        </div>
+      </div>
 
+      <div class="thesis">
+        <div class="item-con7">
+          <video class="vid" src="resources/videos/thesis.mp4" controls> Video not supported</video>
+          <p class="head3">Reimagine urban</p>
+          <p class="quote2">"Curabitur vitae libero in ipsum porttito? consequat. Aliquam et commodo lectus,nec<br>consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget<br>magna laoreet, efficitur dolor consequat, tristique ligula.”</p>
+        </div>
 
+        <div class="item-con8">
+          <div class="flex-con8 bg">
+            <img src="resources/images/thesis-fisma.jpg" />
+            <div>
+              <p class="subject">Fisma: Design and<br>prototype</p>
+              <p class="detail">Designer showcase of new<br>prototype product</p>
+<!--              <p class="btn"><a href="#">Read more</a></p> -->
+            </div>
+          </div>
+        <div class="flex-con8">
+          <img src="resources/images/thesis-now-and-then.jpg" />
+            <div>
+              <p class="subject">Now and then</p>
+              <p class="detail">Research study about New York</p>
+<!--              <p class="btn"><a href="#">Read more</a></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
 
 
   <!-- Footer -->
-  <footer>
-
+  <footer class="foot">
+    <div class="copyright">
+      <p>&copy; 2016 Colmar Academy, All rights reserved</p>
+    </div>
+    <div class="termspriv">
+      <ul>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+      </ul>
+    </div>
   </footer>
 
 </body>

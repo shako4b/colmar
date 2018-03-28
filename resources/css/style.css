@@ -40,10 +40,10 @@ nav {
 .menu {
   margin-right: 1.5rem;
 }
-
+/*
 nav ul {
 
-}
+} */
 
 nav li {
   display: inline;
@@ -92,10 +92,14 @@ nav li a {
 .button p {
   height: 16px;
   background-color: dimgray;
-  color: white;
   text-align: center;
   padding-top: .5rem;
   padding-bottom: .5rem;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
 }
 
 .main {
@@ -112,7 +116,7 @@ nav li a {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-
+  padding-bottom: 1rem;
 }
 
 .item-con1 img {
@@ -152,10 +156,18 @@ nav li a {
   align-items: flex-start;
 }
 
-.flex {
+.flex-con2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 1rem;
+}
+
+.flex-con2.bg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: lightgray;
   margin-bottom: 1rem;
 }
 
@@ -174,8 +186,230 @@ nav li a {
   color: dimgray;
 }
 
-.btn {
+.btn a {
   font-size: .9rem;
   color: deepskyblue;
   font-weight: 700;
+  text-decoration: none;
+}
+
+.item-con3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gainsboro;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.head1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.item-con4 {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+/*  flex-wrap: wrap; */
+  background-color: gainsboro;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.course {
+  background-color: white;
+  height: 296px;
+}
+
+.course img {
+/*  width: 272px;  */
+  width: 256px;
+}
+
+#course1 {
+  margin-left: 72px;
+  margin-right: 32px;
+}
+
+#course2 {
+  margin-right: 32px;
+}
+
+#course3 {
+  margin-right: 72px;
+}
+
+.school {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: dimgray;
+  margin-left: 1rem;
+}
+
+.courses {
+  margin-left: 1rem;
+  color: lightslategray;
+  font-size: .9rem;
+}
+
+.item-con5 {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+/*  flex-wrap: wrap; */
+  background-color: gainsboro;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+
+#course4 {
+  margin-top: 32px;
+  margin-left: 72px;
+  margin-right: 32px;
+}
+
+#course5 {
+  margin-top: 32px;
+  margin-right: 32px;
+}
+
+#course6 {
+  margin-top: 32px;
+  margin-right: 72px;
+}
+
+.item-con6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.head2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.exhibit {
+/*  display: flex;
+  align-items: center; */
+  background-color: white;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.thesis {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  border-left: 1px solid darkgray;
+  border-right: 1px solid darkgray;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.item-con7 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+}
+
+.vid {
+  width: 90%;
+  margin-left: 1.5rem;
+}
+
+.head3 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: dimgray;
+  margin-left: 1.5rem;
+}
+
+.quote2 {
+  font-size: .85rem;
+  margin-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.item-con8 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+}
+
+.flex-con8.bg {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: lightgray;
+  margin-bottom: 1rem;
+}
+
+.flex-con8 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.flex-con8 img {
+  width: 34%;
+  margin-right: 1rem;
+}
+
+.foot {
+    max-width: 960px;
+    margin: auto;
+    height: 4rem;
+    background-color: white;
+    border-top: 1px solid paleturquoise;
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+.copyright {
+  display: inline-block;
+}
+
+.copyright p {
+  font-size: .75rem;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  color: lightslategray;
+}
+
+.termspriv {
+  display: inline-block;
+  float: right;
+  margin-right: 1.5rem;
+}
+
+.termspriv li {
+  display: inline;
+}
+
+.termspriv li a {
+  text-decoration: none;
+  font-size: .75rem;
+  color: lightslategray;
 }
